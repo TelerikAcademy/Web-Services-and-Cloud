@@ -39,4 +39,4 @@
 
 | #   | Title                                                         | Time  | Date              |
 | --- | ------------------------------------------------------------- | :---: | :---------------: |
-| 14  | Practical Exam | 10:00 **Not final** | Tue (25 Nov 2015) **Not final** |
+| 14  | Practical Exam | 10:00 **Not final** | Mon (24 Nov 2015) **Not final** |

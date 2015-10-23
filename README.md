@@ -4,23 +4,23 @@ Public repository for the "Web Services" course
 
 ##  Course Program
 
-###   Course Introduction (day 1)
+###   Course Introduction
 
-###   Web Services Overview (day 1)
+###   Web Services Overview
 
 *   Web services Overview
 *   Types of web services
 *   RESTful web services
 *   Service-oriented Architecture (SOA)
 
-###   ASP.NET Web API (day 2)
+###   ASP.NET WebAPI
 
 *   Creating controllers and Actions
 *   Parsing POCO to JSON/XML
 *   Adding headers
 *   etc...
 
-###   WebAPI Architecture (day 3)
+###   ASP.NET WebAPI Architecture
 
 *   Designing the back-end architecture for SOA
 *   Extracting the access to the database
@@ -29,20 +29,20 @@ Public repository for the "Web Services" course
 *   Introducing IoC
 *   Using Automapper
 
-###   WebAPI Workshop (day 4)
+###   WebAPI Workshop
 
-###   Windows Communication Foundation (WCF) (day 5)
+###   Windows Communication Foundation (WCF)
 
-###   WCF Workshop (day 6)
+###   WCF Workshop
 
-###   Requesting remote resources with C# and .NET (day 7)
+###   Requesting remote resources with C# and .NET
 
-###   Testing web services (day 7)
+###   Testing web services
 
 *   Unit testing
 *   Integration testing
 
-###   Cloud technologies (day 8)
+###   Cloud technologies
 
 *   Types of clouds
 *   Cloud providers
@@ -51,6 +51,9 @@ Public repository for the "Web Services" course
     *   etc...
 *   Deployment of applications in the cloud
 
-###   Using cloud platforms and services (day 8)
+###   Using cloud platforms and services
 
-###   Creating simple RESTful API with Node.js and Express (day 9)
+###   Workshop: Using cloud platforms and services
+
+
+###   Creating simple RESTful API with Node.js and Express 
