@@ -133,18 +133,6 @@
 	-   Ex-developer, Sharepoint
 	-   E-mail: evlogi.hristov [at] telerik.com
 	
-<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
-# The Trainers Team
-<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/kristiyan-tsaklev.jpg" style="float:right" height="240" />
--   **Kristiyan Tsaklev**
-	-   Technical Trainer @ Telerik Academy
-	-   Champion in national and international
-	<br />Informatics competitions
-	-   Student in Sofia University (Computer Science)
-	-   E-mail: kristian.tsuklev [at] telerik.com
-	-   GitHub:
-	<a href="https://github.com/cuklev" title="https://github.com/cuklev" target="_blank">https://github.com/cuklev</a>
-
 <!-- section start -->
 <!-- attr: {id: 'evaluation', class: 'slide-section'} -->
 # Course Evaluation
