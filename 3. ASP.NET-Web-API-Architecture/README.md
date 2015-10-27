@@ -1,4 +1,4 @@
-# 5. Building a Server Application with WebAPI
+# Building a Server Application with WebAPI
 
 ## Live demo from 2014
 
