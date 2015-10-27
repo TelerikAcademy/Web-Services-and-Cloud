@@ -50,27 +50,22 @@
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.5em' } -->
 # The Course Program
 ### Week 1
-
-<table class="table table-striped" style="border: 1px solid rgb(221, 221, 221);"><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>0</td><td>Course Introduction</td><td>16:00</td><td align="center">Tue (27-Oct-2015)</td><td>Niki</td></tr><tr><td>1</td><td>Web Services Overview</td><td>16:30</td><td align="center">Tue (27-Oct-2015)</td><td>Niki</td></tr><tr><td>2</td><td>Creating web services with ASP.NET WebAPI</td><td>18:00</td><td align="center">Tue (27-Oct-2015)</td><td>Ivo</td></tr><tr><td>3</td><td>Architecture and design of ASP.NET WebAPI application</td><td>18:00</td><td align="center">Thu (29-Oct-2015)</td><td>Ivo</td></tr><tr><td>4</td><td><strong>Workshop</strong>: Creating a RESTful API with ASP.NET WebAPI</td><td>19:00</td><td align="center">Thu (29-Oct-2015)</td><td>Ivo</td></tr></tbody></table>
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>0</td><td>Course Introduction</td><td>16:00</td><td align="center">Tue (27-Oct-2015)</td><td>Niki</td></tr><tr><td>1</td><td>Web Services Overview</td><td>16:30</td><td align="center">Tue (27-Oct-2015)</td><td>Niki</td></tr><tr><td>2</td><td>Creating web services with ASP.NET WebAPI</td><td>18:00</td><td align="center">Tue (27-Oct-2015)</td><td>Ivo</td></tr><tr><td>3</td><td>Architecture and design of ASP.NET WebAPI application</td><td>18:00</td><td align="center">Thu (29-Oct-2015)</td><td>Ivo</td></tr><tr><td>4</td><td><strong>Workshop</strong>: Creating a RESTful API with ASP.NET WebAPI</td><td>19:00</td><td align="center">Thu (29-Oct-2015)</td><td>Ivo</td></tr></tbody></table>
 
 ### Week 2
-
-<table class="table table-striped" style="border: 1px solid rgb(221, 221, 221);"><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>5</td><td>Requesting remote data with C#</td><td>16:00</td><td align="center">Tue (3-Nov-2015)</td><td>Evlogi</td></tr><tr><td>6</td><td>Testing Web Services</td><td>18:00</td><td align="center">Tue (3-Nov-2015)</td><td>Ivo</td></tr><tr><td>7</td><td>Creating web services with Windows Communication Foundation (WCF)</td><td>10:30</td><td align="center">Thu (5-Nov-2015)</td><td>Doncho</td></tr><tr><td>8</td><td><strong>Workshop</strong>: Creating RESTful API with WCF</td><td>14:00</td><td align="center">Thu (5-Nov-2015)</td><td>Doncho</td></tr></tbody></table>
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>5</td><td>Requesting remote data with C#</td><td>16:00</td><td align="center">Tue (3-Nov-2015)</td><td>Evlogi</td></tr><tr><td>6</td><td>Testing Web Services</td><td>18:00</td><td align="center">Tue (3-Nov-2015)</td><td>Ivo</td></tr><tr><td>7</td><td>Creating web services with Windows Communication Foundation (WCF)</td><td>10:30</td><td align="center">Thu (5-Nov-2015)</td><td>Doncho</td></tr><tr><td>8</td><td><strong>Workshop</strong>: Creating RESTful API with WCF</td><td>14:00</td><td align="center">Thu (5-Nov-2015)</td><td>Doncho</td></tr></tbody></table>
 
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.5em' } -->
 <!-- # The Course Program -->
 ### Week 3
-
-<table class="table table-striped" style="border: 1px solid rgb(221, 221, 221);"><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>9</td><td>Cloud technologies overview</td><td>10:30</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>10</td><td>Using cloud platforms and services</td><td>13:00</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>11</td><td><strong>Workshop</strong>: Using cloud platforms  and services in Azure</td><td>10:30</td><td align="center">Thu (12-Nov 2015)</td><td>Niki</td></tr></tbody></table>
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>9</td><td>Cloud technologies overview</td><td>10:30</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>10</td><td>Using cloud platforms and services</td><td>13:00</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>11</td><td><strong>Workshop</strong>: Using cloud platforms  and services in Azure</td><td>10:30</td><td align="center">Thu (12-Nov 2015)</td><td>Niki</td></tr></tbody></table>
 
 ### Week 4
-
-<table class="table table-striped" style="border: 1px solid rgb(221, 221, 221);"><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>12</td><td><strong>Exam preparation</strong>: RESTful API with ASP.NET WebAPI and WCF</td><td>18:00</td><td align="center">Mon (16-Nov-2015)</td><td>Ivo</td></tr><tr><td>13</td><td><strong>Workshop</strong>: RESTful API with Node.js, Express and MongoDB</td><td>10:30</td><td align="center">Thu (19-Nov-2015)</td><td>Doncho</td></tr><tr><td>14</td><td><strong>Teamwork Defense</strong></td><td>09:30</td><td align="center">Fri (20-Nov-2015)</td><td>All</td></tr></tbody></table>
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>12</td><td><strong>Exam preparation</strong>: RESTful API with ASP.NET WebAPI and WCF</td><td>18:00</td><td align="center">Mon (16-Nov-2015)</td><td>Ivo</td></tr><tr><td>13</td><td><strong>Workshop</strong>: RESTful API with Node.js, Express and MongoDB</td><td>10:30</td><td align="center">Thu (19-Nov-2015)</td><td>Doncho</td></tr><tr><td>14</td><td><strong>Teamwork Defense</strong></td><td>09:30</td><td align="center">Fri (20-Nov-2015)</td><td>All</td></tr></tbody></table>
 
 ### Week 5
-
-<table class="table table-striped" style="border: 1px solid rgb(221, 221, 221);"><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th></tr></thead><tbody><tr><td>15</td><td>Practical Exam</td><td>10:00</td><td align="center">Mon (23 Nov 2015)</td></tr></tbody></table>
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th></tr></thead><tbody><tr><td>15</td><td>Practical Exam</td><td>10:00</td><td align="center">Mon (23 Nov 2015)</td></tr></tbody></table>
 
 
 <!-- section start -->
