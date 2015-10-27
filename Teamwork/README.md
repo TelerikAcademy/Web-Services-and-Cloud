@@ -106,84 +106,49 @@ You will be invited to **provide feedback** about all your teammates, their atti
 Sample Projects:
 ----------------
 
-Your application can be one of the following:
-
 -   **Web chat** application
-
     -   Users send messages between each other
-
     -   Users can send files
-
     -   Users can have a profile picture
-
     -   Users receive notifications when another user sends them a message
 
 -   **Foursquare-like** application
-
     -   Users can see a set of predefined places with coordinates
-
     -   Users can check-in at a place near them
-
     -   Users can post a comment about a place
-
     -   Users can upload an image of the place
-
     -   Users can create a place
-
     -   Users receive notifications about people, checking in the place they are in
 
 -   **Image gallery** application
-
     -   Users can own a gallery
-
     -   The gallery can have albums
-
     -   The albums can have sub albums
-
     -   Users can upload images in the gallery or in any of the albums
-
     -   Images have title
-
     -   Users can leave a comment about an image
-
     -   Users receive notifications when somebody comments an image of theirs
 
 -   **Chess** game
-
     -   Users can join a random game
-
         -   The engine decides which two players to start the game
-
     -   Users can perform moves in a started game
-
     -   Users can have a profile picture
-
     -   Users receive notifications when a user in a game of theirs has made their move
 
 -   **Crowd-sourced** **news** application
-
     -   Users can publish a news article containing images
-
     -   Users can comment news articles
-
         -   Comments can be nested
-
     -   Users can vote for and against news articles
-
     -   Users receive notifications when a new news article is published
 
 -   **Recipe** application
-
     -   Users can upload recipes containing images and preparation steps
-
         -   Preparation steps have completion time (e.g. bake potatoes for 5 minutes at 200 degrees)
-
     -   Users can like and comment a recipe
-
     -   Users can start cooking a recipe
-
         -   Notifications are delivered when a preparation step's time has elapsed
 
 -   **Another application** by your choice
-
     -   The only condition is to follow the Requirements
