@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5D93B76-642A-49D7-B780-51E8740964CF}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{96E44DCB-C1DD-4001-8983-841A675D90DA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Live-Demo", "Live-Demo", "{7E9975D9-79E7-4106-8830-32E826112B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.RestApi", "BugLogger.RestApi\BugLogger.RestApi.csproj", "{3155EC28-714D-416A-8A91-783CF13C6EC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Live-Demo-Tests", "Live-Demo-Tests", "{AFD999DF-A87A-4AD9-8D2B-97A967221D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.Repositories.Tests", "BugLogger.Repositories.Tests\BugLogger.Repositories.Tests.csproj", "{D5F408A8-FEE0-4463-9BF5-0D655890D2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.RestApi.Tests", "BugLogger.RestApi.Tests\BugLogger.RestApi.Tests.csproj", "{FF8C1EF8-260C-4F77-9A6F-498A3E63B99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.DataLayer", "BugLogger.DataLayer\BugLogger.DataLayer.csproj", "{3CF446FA-0431-4DEE-AE7E-EDAC5A4A4BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.Repositories", "BugLogger.Repositories\BugLogger.Repositories.csproj", "{A64786A5-3647-4DFF-BE10-2144D2A035A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.RestApi.IntegrationTests", "BugLogger.RestApi.IntegrationTests\BugLogger.RestApi.IntegrationTests.csproj", "{B2FCD5CE-B5F8-4795-8037-44079AB7F6A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3155EC28-714D-416A-8A91-783CF13C6EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3155EC28-714D-416A-8A91-783CF13C6EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3155EC28-714D-416A-8A91-783CF13C6EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3155EC28-714D-416A-8A91-783CF13C6EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F408A8-FEE0-4463-9BF5-0D655890D2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F408A8-FEE0-4463-9BF5-0D655890D2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F408A8-FEE0-4463-9BF5-0D655890D2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F408A8-FEE0-4463-9BF5-0D655890D2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8C1EF8-260C-4F77-9A6F-498A3E63B99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8C1EF8-260C-4F77-9A6F-498A3E63B99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8C1EF8-260C-4F77-9A6F-498A3E63B99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8C1EF8-260C-4F77-9A6F-498A3E63B99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF446FA-0431-4DEE-AE7E-EDAC5A4A4BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF446FA-0431-4DEE-AE7E-EDAC5A4A4BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF446FA-0431-4DEE-AE7E-EDAC5A4A4BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF446FA-0431-4DEE-AE7E-EDAC5A4A4BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64786A5-3647-4DFF-BE10-2144D2A035A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64786A5-3647-4DFF-BE10-2144D2A035A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64786A5-3647-4DFF-BE10-2144D2A035A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64786A5-3647-4DFF-BE10-2144D2A035A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FCD5CE-B5F8-4795-8037-44079AB7F6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FCD5CE-B5F8-4795-8037-44079AB7F6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FCD5CE-B5F8-4795-8037-44079AB7F6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FCD5CE-B5F8-4795-8037-44079AB7F6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3155EC28-714D-416A-8A91-783CF13C6EC9} = {7E9975D9-79E7-4106-8830-32E826112B1E}
+		{D5F408A8-FEE0-4463-9BF5-0D655890D2B0} = {AFD999DF-A87A-4AD9-8D2B-97A967221D0B}
+		{FF8C1EF8-260C-4F77-9A6F-498A3E63B99C} = {AFD999DF-A87A-4AD9-8D2B-97A967221D0B}
+		{3CF446FA-0431-4DEE-AE7E-EDAC5A4A4BC4} = {7E9975D9-79E7-4106-8830-32E826112B1E}
+		{A64786A5-3647-4DFF-BE10-2144D2A035A2} = {7E9975D9-79E7-4106-8830-32E826112B1E}
+		{B2FCD5CE-B5F8-4795-8037-44079AB7F6A6} = {AFD999DF-A87A-4AD9-8D2B-97A967221D0B}
+	EndGlobalSection
+EndGlobal
