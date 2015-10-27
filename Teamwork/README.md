@@ -1,4 +1,4 @@
-Web Services and Cloud Technologies – Practical Teamwork Project 2014
+Web Services and Cloud Technologies – Practical Teamwork Project 2015
 =====================================================================
 
 Project Description
@@ -19,29 +19,33 @@ Please define and implement the following assets in your project:
 
 -   Provide a **RESTful API**
 
-    -   The endpoints should provide CRUD operations: POST, GET, PUT and DELETE
+    -   The endpoints should provide **CRUD** operations: *POST, GET, PUT and DELETE*
 
 -   Host the application in the cloud
 
-    -   Use **AppHarbor**
+    -   Use **Azure**
 
 -   Use a **file storage cloud API**
 
     -   **Dropbox**, **Google Drive** or other
 
--   Use a **cloud database**
+-   Use a **cloud-based database**
 
     -   **MS SQL**, **MySQL**, **MongoDB**, **Redis** or other
 
--   Implement notifications functionality
+-   Implement notifications functionality or **message queues**
 
     -   Use **PubNub** or other
 
-### Requirements for the Client application
+-   Add **Unit** and/or **integration** tests
+
+### Requirements for the client application
 
 -   The client application can be one of the following:
 
     -   **Web SPA** application using JavaScript
+
+    -   **Windows desktop application** using WPF, Windows Forms or the console
 
     -   **iOS mobile** application
 
@@ -51,27 +55,16 @@ Please define and implement the following assets in your project:
 
     -   **Cross-platform mobile application** using Apache Cordova, Xamarin or other
 
-    -   **Windows desktop application** using WPF, Windows Forms or the console
-
 -   The **client application** must send **HTTP** **requests** to the RESTful API
+
+-	Bonus will be given for UI
 
 Additional Requirements
 -----------------------
 
--   Follow the **best practices for OO design**: use data encapsulation, use exception handling properly, use inheritance, abstraction and polymorphism properly and follow the principles of strong cohesion and loose coupling
+-   Follow the **best practices for OO design and High-quality code**
 
--   Create a **solid validation** on both the Web services application and on the client application
-
--   Use a source control system by choice
-
-Optional Requirements
----------------------
-
-If you have a chance, time and a suitable situation, you might add some of the following to your project:
-
--   Usage of **message queues**
-
--   **Unit** and/or **integration** testing
+-   Use a GitHub for source control system
 
 Deliverables
 ------------
@@ -82,24 +75,28 @@ Put the following in a **ZIP archive** and submit it (each team member submits t
 
 -   Add **webservices.teamwork@gmail.com** as a collaborator to your project in AppHarbor
 
--   Brief **documentation** of your project (2-3 pages). It should provide the following information (in brief):
+-   Brief **documentation** in Markdown (`.md` file). It should provide the following information (in brief):
 
     -   Team name and list of team members
 
     -   Project purpose – what problem do you solve?
 
     -   Class diagram of your types
+	
+	-	The list and explanation of **your API methods**
 
     -   The URL of your source control repository
 
     -   Any other information (optionally)
 
--   Optionally provide a **PowerPoint presentation** designed for the project defense
+-	If you have good UI you should upload your project in [Telerik Academy Showcase System](http://best.telerikacademy.com/)
+
+-   Optionally provide a **presentation** designed for the project defense
 
 Public Project Defense
 ----------------------
 
-Each team will have to deliver a **public defense** of its work to the other students and trainers. You will have **only 5 minutes** for the following:
+Each team will have to deliver a **public defense** of its work to the other students and trainers. You will have **only 10 minutes** for the following:
 
 -   **Demonstrate** the application (very shortly)
 
@@ -109,7 +106,7 @@ Each team will have to deliver a **public defense** of its work to the other stu
 
 -   Show the **commits logs** to confirm that team member have contributed
 
--   Optionally you might prepare a PowerPoint presentation (3-4 slides)
+-   Optionally you might prepare a presentation (4-5 slides)
 
 Please be **strict in timing**! Be **well prepared** for presenting maximum of your work for minimum time. Bring your own laptop. Test it preliminary with the multimedia projector. Open the project assets beforehand to save time. You have **5 minutes**, no more.
 
@@ -117,7 +114,6 @@ Give Feedback about Your Teammates
 ----------------------------------
 
 You will be invited to **provide feedback** about all your teammates, their attitude to this project, their technical skills, their team working skills, their contribution to the project, etc. The feedback is important part of the project evaluation so **take it seriously** and be honest.
-
 
 Sample Projects:
 ----------------
