@@ -43,7 +43,7 @@
 
 
 <!-- section start -->
-<!-- attr: {class: 'slide-section', id: 'databases-program'} -->
+<!-- attr: {class: 'slide-section', id: 'web-services-program'} -->
 # Web Services and Cloud Technologies Course Program
 ## What Will We Cover in the Course?
 
@@ -59,7 +59,7 @@
 
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.5em' } -->
-<!-- # The Databases Course Program -->
+<!-- # The Course Program -->
 ### Week 3
 
 <table class="table table-striped" style="border: 1px solid rgb(221, 221, 221);"><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>9</td><td>Cloud technologies overview</td><td>10:30</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>10</td><td>Using cloud platforms and services</td><td>13:00</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>11</td><td><strong>Workshop</strong>: Using cloud platforms  and services in Azure</td><td>10:30</td><td align="center">Thu (12-Nov 2015)</td><td>Niki</td></tr></tbody></table>
@@ -144,8 +144,8 @@
   - **Practical exam** – 45%
     - **Exam evaluation** – 10%
   - **Teamwork** – 20%
-  - **Homework** 5%
-    - **Homework evaluation** 5%
+  - **Homework** – 5%
+    - **Homework evaluation** – 5%
   - **Attendance in class** – 5%
   - **Forums activity** – up to 5%
   - **Helping others** – up to 5%
@@ -172,11 +172,11 @@
 		-	Homework comments are `not obligatory`
 
 # Course Web Site & Forums
--	Register for the [Telerik Academy Forums](http://telerikacademy.com/Forum/Category/57/databases)
+-	Register for the [Telerik Academy Forums](http://telerikacademy.com/Forum/Category/58/web-services-and-cloud)
 	-	Discuss the course exercises with your colleagues
 	-	Find solutions for the exercises
 	-	Share source code / discuss ideas
--	The course official [web site](http://academy.telerik.com/student-courses/software-technologies/databases/about)
+-	The course official [web site](http://academy.telerik.com/student-courses/software-technologies/web-services-and-cloud-computing/about)
 
 # Telerik Integrated Learning System (TILS)
 -	The Telerik Integrated Learning System ([TILS](http://www.telerikacademy.com))
@@ -191,10 +191,10 @@
 -	Software needed for this course:
   -	Microsoft Windows (Win8.1 / Win10)
   - Microsoft **Visual Studio 2015**
-  - SQL Server 2014
+  - **SQL Server 2014**
 
 <!-- section start -->
 <!-- attr: { id:'questions', class:'slide-section' } -->
 # Questions
 ## Web Services and Cloud Technologies
-[link to the forum](http://telerikacademy.com/Forum/Category/57/databases)
+[link to the forum](http://telerikacademy.com/Forum/Category/58/web-services-and-cloud)
