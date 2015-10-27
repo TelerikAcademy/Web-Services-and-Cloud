@@ -14,27 +14,21 @@ Please define and implement the following assets in your project:
 ### Requirements for the RESTful API
 
 -   Use **ASP.NET WebAPI**
-
     -   Your application must be implemented using ASP.NET WebAPI
 
 -   Provide a **RESTful API**
-
     -   The endpoints should provide **CRUD** operations: *POST, GET, PUT and DELETE*
 
 -   Host the application in the cloud
-
     -   Use **Azure**
 
 -   Use a **file storage cloud API**
-
     -   **Dropbox**, **Google Drive** or other
 
 -   Use a **cloud-based database**
-
     -   **MS SQL**, **MySQL**, **MongoDB**, **Redis** or other
 
 -   Implement notifications functionality or **message queues**
-
     -   Use **PubNub** or other
 
 -   Add **Unit** and/or **integration** tests
@@ -69,7 +63,6 @@ Put the following in a **ZIP archive** and submit it (each team member submits t
 -   The complete **source code** (delete `bin`, `obj` and `packages` folders)
 
 -   Brief **documentation** in Markdown (`.md` file). It should provide the following information (in brief):
-
     -   Team name and list of team members
     -   Project purpose – what problem do you solve?
     -   Class diagram of your types
@@ -87,13 +80,9 @@ Public Project Defense
 Each team will have to deliver a **public defense** of its work to the other students and trainers. You will have **only 10 minutes** for the following:
 
 -   **Demonstrate** the application (very shortly)
-
 -   Show the **class diagram** (just a glance)
-
 -   Show the **source code** in the source control system code browser
-
 -   Show the **commits logs** to confirm that team member have contributed
-
 -   Optionally you might prepare a presentation (4-5 slides)
 
 Please be **strict in timing**! Be **well prepared** for presenting maximum of your work for minimum time. Bring your own laptop. Test it preliminary with the multimedia projector. Open the project assets beforehand to save time. You have **5 minutes**, no more.
