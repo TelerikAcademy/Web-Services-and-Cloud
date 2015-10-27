@@ -44,15 +44,10 @@ Please define and implement the following assets in your project:
 -   The client application can be one of the following:
 
     -   **Web SPA** application using JavaScript
-
     -   **Windows desktop application** using WPF, Windows Forms or the console
-
     -   **iOS mobile** application
-
     -   **Android mobile** application
-
     -   **Windows 8/Windows Phone 8 mobile** application
-
     -   **Cross-platform mobile application** using Apache Cordova, Xamarin or other
 
 -   The **client application** must send **HTTP** **requests** to the RESTful API
@@ -71,22 +66,15 @@ Deliverables
 
 Put the following in a **ZIP archive** and submit it (each team member submits the same file):
 
--   The complete **source code**
-
--   Add **webservices.teamwork@gmail.com** as a collaborator to your project in AppHarbor
+-   The complete **source code** (delete `bin`, `obj` and `packages` folders)
 
 -   Brief **documentation** in Markdown (`.md` file). It should provide the following information (in brief):
 
     -   Team name and list of team members
-
     -   Project purpose – what problem do you solve?
-
     -   Class diagram of your types
-	
 	-	The list and explanation of **your API methods**
-
     -   The URL of your source control repository
-
     -   Any other information (optionally)
 
 -	If you have good UI you should upload your project in [Telerik Academy Showcase System](http://best.telerikacademy.com/)
