@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Entities", "BullsAndCows.Entities\BullsAndCows.Entities.csproj", "{ADB85015-F6F3-46EC-A8A8-9A4984EB4289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.RestApi", "BullsAndCows.RestApi\BullsAndCows.RestApi.csproj", "{948656FF-7611-4923-BB3E-C7945BD4B038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Client", "BullsAndCows.Client\BullsAndCows.Client.csproj", "{14844855-253D-4BF6-8CA1-FCD5F1255C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Data", "BullsAndCows.Data\BullsAndCows.Data.csproj", "{B765FEDB-3D70-4764-85F0-CE8FD41FE9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.PublicRestApi", "BullsAndCows.PublicRestApi\BullsAndCows.PublicRestApi.csproj", "{E4155AD5-8546-4F89-B4FE-77D1EEC89313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{204C3E2B-B5F9-4302-9F7F-13DD0A0631A6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB85015-F6F3-46EC-A8A8-9A4984EB4289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB85015-F6F3-46EC-A8A8-9A4984EB4289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB85015-F6F3-46EC-A8A8-9A4984EB4289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB85015-F6F3-46EC-A8A8-9A4984EB4289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948656FF-7611-4923-BB3E-C7945BD4B038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948656FF-7611-4923-BB3E-C7945BD4B038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948656FF-7611-4923-BB3E-C7945BD4B038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948656FF-7611-4923-BB3E-C7945BD4B038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14844855-253D-4BF6-8CA1-FCD5F1255C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14844855-253D-4BF6-8CA1-FCD5F1255C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14844855-253D-4BF6-8CA1-FCD5F1255C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14844855-253D-4BF6-8CA1-FCD5F1255C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B765FEDB-3D70-4764-85F0-CE8FD41FE9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B765FEDB-3D70-4764-85F0-CE8FD41FE9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B765FEDB-3D70-4764-85F0-CE8FD41FE9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B765FEDB-3D70-4764-85F0-CE8FD41FE9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4155AD5-8546-4F89-B4FE-77D1EEC89313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4155AD5-8546-4F89-B4FE-77D1EEC89313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4155AD5-8546-4F89-B4FE-77D1EEC89313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4155AD5-8546-4F89-B4FE-77D1EEC89313}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
