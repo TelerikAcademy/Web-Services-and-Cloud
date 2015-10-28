@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Music Artists</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link red="stylesheet" href="lib/toastr/toastr.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body ng-app="app" ng-controller="PageController" ng-cloak>
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#/home" class="navbar-brand">Articles</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#/create">Create</a>
+                </li>
+            </ul>
+            <div ng-controller="LoginCtrl" class="nav navbar-nav navbar-right">
+                <form ng-hide="identity.isAuthenticated()" class="navbar-form">
+                    <div class="form-group"><input type="text" placeholder="Username" ng-model="user.username"
+                                                   class="form-control"/><input type="password" placeholder="Password"
+                                                                                ng-model="user.password" class="form-control"/>
+                    </div>
+                    <button ng-click="login(user)" class="btn btn-primary">Login</button>
+                    <a href="#/signup" class="btn btn-primary">Register</a></form>
+                <ul ng-show="identity.isAuthenticated()" class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a href="" data-toggle="dropdown" class="dropdown-toggle">{{ identity.currentUser.userName }}<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" ng-click="logout()">Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div ng-view>
+
+</div>
+
+<hr />
+<footer class="text-center" ng-cloak>
+    <small><strong>Author:</strong> {{author}}, <strong>Copyright:</strong> <a href="http://telerikacademy.com/" target="_blank">{{ copyright }} 2014</a></small>
+</footer>
+<hr />
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-resource.min.js"></script>
+<script src="lib/angular/angular-route.min.js"></script>
+<script src="lib/toastr/toastr.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/HomeController.js"></script>
+<script src="js/controllers/PageController.js"></script>
+<script src="js/controllers/SignUpCtrl.js"></script>
+<script src="js/controllers/LoginCtrl.js"></script>
+<script src="js/controllers/CreateArticleCtrl.js"></script>
+<script src="js/services/notifier.js"></script>
+<script src="js/services/account/auth.js"></script>
+<script src="js/services/account/identity.js"></script>
+<script src="js/services/account/authorization.js"></script>
+<script src="js/services/resources/UsersResource.js"></script>
+<script src="js/services/resources/ArticlesResource.js"></script>
+<script src="js/services/resources/CategoriesResource.js"></script>
+</body>
+</html>
