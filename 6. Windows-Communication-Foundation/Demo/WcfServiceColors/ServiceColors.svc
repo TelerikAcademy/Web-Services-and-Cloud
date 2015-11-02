@@ -1,2 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" 
-    Service="WcfServiceColors.ServiceColors" CodeBehind="ServiceColors.svc.cs" %>
