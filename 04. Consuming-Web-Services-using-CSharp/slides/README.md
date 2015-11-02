@@ -3,8 +3,8 @@
 # Consuming Web Services
 ##  Using Different C# APIs
 <div class="signature">
-    <p class="signature-course">Telerik Software Academy</p>
-    <p class="signature-initiative">Web Services and Cloud</p>
+    <p class="signature-course">Web Services and Cloud</p>
+    <p class="signature-initiative">Telerik Software Academy</p>
     <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
 
