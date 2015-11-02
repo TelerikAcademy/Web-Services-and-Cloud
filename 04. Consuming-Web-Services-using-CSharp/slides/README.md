@@ -8,7 +8,6 @@
     <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # Table of Contents
