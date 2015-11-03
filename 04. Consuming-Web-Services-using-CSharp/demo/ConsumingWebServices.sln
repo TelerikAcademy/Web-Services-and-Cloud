@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.NET.Serialization", "JSON.NET.Serialization\JSON.NET.Serialization.csproj", "{DFB761F6-F143-4F67-AFFB-334DA0FE9A40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. JSON.NET.Serialization", "JSON.NET.Serialization\01. JSON.NET.Serialization.csproj", "{DFB761F6-F143-4F67-AFFB-334DA0FE9A40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingWebClient", "UsingWebClient\UsingWebClient.csproj", "{20DD2869-D249-4A81-B1F7-03562F9B6EB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. UsingWebClient", "UsingWebClient\03. UsingWebClient.csproj", "{20DD2869-D249-4A81-B1F7-03562F9B6EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingHttpWebRequest", "UsingHttpWebRequest\UsingHttpWebRequest.csproj", "{D26F8603-B2D3-46EA-9936-EEA2F9778D1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. UsingHttpWebRequest", "UsingHttpWebRequest\05. UsingHttpWebRequest.csproj", "{D26F8603-B2D3-46EA-9936-EEA2F9778D1C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{F35D6D72-5A2F-4AE8-B99A-3D860DFD4301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRequestResponseMessage", "HttpRequestResponseMessage\HttpRequestResponseMessage.csproj", "{4D6C60C0-0F14-4C83-AC86-8A15C01960F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. HttpRequestResponseMessage", "HttpRequestResponseMessage\06. HttpRequestResponseMessage.csproj", "{4D6C60C0-0F14-4C83-AC86-8A15C01960F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebClient", "SimpleWebClient\SimpleWebClient.csproj", "{7B9784A3-68E4-4405-AFC0-7CF4B2A5FC92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. SimpleWebClient", "SimpleWebClient\02. SimpleWebClient.csproj", "{7B9784A3-68E4-4405-AFC0-7CF4B2A5FC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpClient", "SimpleHttpClient\SimpleHttpClient.csproj", "{A7705F8B-D483-4C67-8FBA-CC42B9E51053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. SimpleHttpClient", "SimpleHttpClient\07. SimpleHttpClient.csproj", "{A7705F8B-D483-4C67-8FBA-CC42B9E51053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpWebRequest", "SimpleHttpWebRequest\SimpleHttpWebRequest.csproj", "{887ED0E2-FCA9-4BE4-BD6B-EE9A51B51686}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. SimpleHttpWebRequest", "SimpleHttpWebRequest\04. SimpleHttpWebRequest.csproj", "{887ED0E2-FCA9-4BE4-BD6B-EE9A51B51686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

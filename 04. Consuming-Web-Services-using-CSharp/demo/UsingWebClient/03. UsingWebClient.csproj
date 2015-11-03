@@ -48,7 +48,7 @@
     <Compile Include="Models\BookModel.cs" />
     <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Models\Student.cs" />
-    <Compile Include="WebClientRequester.cs" />
+    <Compile Include="Models\WebClientRequester.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
