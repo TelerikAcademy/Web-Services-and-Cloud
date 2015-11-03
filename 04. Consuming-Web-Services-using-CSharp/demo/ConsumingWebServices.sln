@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.NET.Serialization", "JSON.NET.Serialization\JSON.NET.Serialization.csproj", "{DFB761F6-F143-4F67-AFFB-334DA0FE9A40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingWebClient", "UsingWebClient\UsingWebClient.csproj", "{20DD2869-D249-4A81-B1F7-03562F9B6EB0}"

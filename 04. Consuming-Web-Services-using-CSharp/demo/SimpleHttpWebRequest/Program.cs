@@ -14,7 +14,7 @@ namespace SimpleHttpWebRequest
         {
             var request = WebRequest.Create("http://localhost:7232/api/students") as HttpWebRequest;
 
-            request.ContentType = "application/json";
+            request.Accept = "application/json";
             request.Method = "GET";
 
             var response = request.GetResponse();
