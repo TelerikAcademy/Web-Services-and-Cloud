@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Owin;
 using Owin;
+using System.Web.Http;
 
 [assembly: OwinStartup(typeof(SourceControlSystem.Api.Startup))]
 
@@ -12,7 +13,10 @@ namespace SourceControlSystem.Api
     {
         public void Configuration(IAppBuilder app)
         {
+            var config = new HttpConfiguration();
+            WebApiConfig.Register(config);
             ConfigureAuth(app);
+            app.UseWebApi(config);
         }
     }
 }

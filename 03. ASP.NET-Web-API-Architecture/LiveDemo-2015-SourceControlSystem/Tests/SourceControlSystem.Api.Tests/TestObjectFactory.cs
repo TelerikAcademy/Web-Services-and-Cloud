@@ -11,15 +11,28 @@
     public static class TestObjectFactory
     {
         private static IQueryable<SoftwareProject> projects = new List<SoftwareProject>
+        {
+            new SoftwareProject
+            {
+                CreatedOn = new DateTime(2015, 11, 5, 23, 47, 12),
+                Description = "Test Description",
+                Name = "Test",
+                Private = true
+            }
+        }.AsQueryable();
+
+        private static IQueryable<Commit> commits = new List<Commit>
+        {
+            new Commit
+            {
+                CreatedOn = new DateTime(2015, 11, 5, 23, 47, 12),
+                User = new User
                 {
-                    new SoftwareProject
-                    {
-                        CreatedOn = new DateTime(2015, 11, 5, 23, 47, 12),
-                        Description = "Test Description",
-                        Name = "Test",
-                        Private = true
-                    }
-                }.AsQueryable();
+                    UserName = "User with commit"
+                },
+                Id = 1,
+            }
+        }.AsQueryable();
 
         public static IProjectsService GetProjectsService()
         {
@@ -48,6 +61,25 @@
                 .Returns(1);
 
             return projectsService.Object;
+        }
+        
+        public static ICommitsService GetCommitsService()
+        {
+            var commitsService = new Mock<ICommitsService>();
+
+            commitsService.Setup(c => c.GetAllByProjectId(
+                    It.IsAny<int>()))
+                .Returns(commits);
+
+            commitsService.Setup(c => c.UserHasCommits(
+                    It.Is<string>(u => u == "User with commit")))
+                .Returns(true);
+
+            commitsService.Setup(c => c.UserHasCommits(
+                    It.Is<string>(u => u != "User with commit")))
+                .Returns(false);
+                
+            return commitsService.Object;
         }
 
         public static SaveProjectRequestModel GetInvalidModel()
