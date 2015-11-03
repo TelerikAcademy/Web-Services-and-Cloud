@@ -26,6 +26,11 @@
                 .All()
                 .FirstOrDefault(u => u.UserName == creator);
 
+            if (currentUser == null)
+            {
+                throw new ArgumentException("Current user cannot be found!");
+            }
+
             var newProject = new SoftwareProject
             {
                 Name = name,
