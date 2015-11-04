@@ -13,8 +13,6 @@
         [TestMethod]
         public void ByProjectShouldReturnCorrectResponse()
         {
-            var config = new HttpConfiguration();
-
             using (var webApp = WebApp.Start<Startup>("http://localhost:1234"))
             {
                 using (var httpClient = new HttpClient())

@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{76758DF2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceControlSystem.Api.Tests", "Tests\SourceControlSystem.Api.Tests\SourceControlSystem.Api.Tests.csproj", "{B4237363-2188-4B26-B77E-4E8317CB0F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceControlSystem.Services.Data.Tests", "SourceControlSystem.Services.Data.Tests\SourceControlSystem.Services.Data.Tests.csproj", "{42917341-647E-4F1D-831B-54AE77177904}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceControlSystem.Services.Data.Tests", "Tests\SourceControlSystem.Services.Data.Tests\SourceControlSystem.Services.Data.Tests.csproj", "{42917341-647E-4F1D-831B-54AE77177904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
