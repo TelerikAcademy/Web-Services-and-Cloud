@@ -130,6 +130,7 @@
     <Compile Include="IntegrationTests\CommitsIntegrationTests.cs" />
     <Compile Include="NetworkIntegrationTests\CommitsNetworkIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteTests\CommitsControllerTests.cs" />
     <Compile Include="RouteTests\ProjectsControllerTests.cs" />
     <Compile Include="TestInit.cs" />
     <Compile Include="TestObjectFactory.cs" />

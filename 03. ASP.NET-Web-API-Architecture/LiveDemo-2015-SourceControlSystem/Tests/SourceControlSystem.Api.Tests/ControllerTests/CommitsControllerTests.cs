@@ -10,6 +10,7 @@
     using System.Net;
     using System.Web.Http;
     using TestObjects;
+    using MyWebApi;
 
     [TestClass]
     public class CommitsControllerTests
@@ -50,6 +51,25 @@
         [TestMethod]
         public void UserHasCommitsShouldReturnFoundStatusCodeWithRequestHeader()
         {
+            //MyWebApi
+            //    .Controller<CommitsController>()
+            //    .WithResolvedDependencyFor(this.commitsService)
+            //    .WithHttpRequestMessage(req => req.WithHeader("MyCustomHeader", "MyValue"))
+            //    .WithAuthenticatedUser()
+            //    .ShouldHave()
+            //    .Attributes(attr => attr.ChangingRoutePrefixTo("api/Commits"));
+
+            //MyWebApi
+            //    .Controller<CommitsController>()
+            //    .WithResolvedDependencyFor(this.commitsService)
+            //    .WithHttpRequestMessage(req => req.WithHeader("MyCustomHeader", "MyValue"))
+            //    .WithAuthenticatedUser()
+            //    .Calling(c => c.UserHasCommits("User with commit"))
+            //    .ShouldReturn()
+            //    .HttpResponseMessage()
+            //    .ContainingHeader("Location", "http://telerikacademy.com")
+            //    .WithContentOfType<ObjectContent<bool>>();
+
             var controller = new CommitsController(this.commitsService);
             var request = new HttpRequestMessage();
             request.Headers.Add("MyCustomHeader", "MyValue");
