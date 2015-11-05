@@ -18,7 +18,6 @@
 | 5   | Requesting remote data with C#                                    | 16:00 | Tue (3-Nov-2015) | Evlogi  |
 | 6   | Testing Web Services                                              | 18:00 | Tue (3-Nov-2015) | Ivo     |
 | 7   | Creating web services with Windows Communication Foundation (WCF) | 10:30 | Thu (5-Nov-2015) | Doncho  |
-| 8   | **Workshop**: Creating RESTful API with WCF                       | 14:00 | Thu (5-Nov-2015) | Doncho  |
 
 ##   Week 3
 
@@ -27,6 +26,7 @@
 | 9   | Cloud technologies overview                                | 10:30 | Tue (10-Nov 2015) | Evlogi  |
 | 10  | Using cloud platforms and services                         | 13:00 | Tue (10-Nov 2015) | Evlogi  |
 | 11  | **Workshop**: Using cloud platforms  and services in Azure | 10:30 | Thu (12-Nov 2015) | Niki    |
+| 8   | **Workshop**: Creating RESTful API with WCF                | 14:00 | Thu (12-Nov-2015) | Doncho  |
 
 ##   Week 4
 
