@@ -1,11 +1,16 @@
-<!--   attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size:1em' } -->
+<!-- section start -->
+
+<!-- attr: { class:'slide-title', hasScriptWrapper:true, } -->
 #   Windows Communication Foundation (WCF)
-*   Telerik Software Academy
-*   http://academy.telerik.com
-*   Web Services & Cloud
+##  Creating web services
 
+<div class="signature">
+    <p class="signature-course">Telerik Software Academy</p>
+    <p class="signature-initiative">http://academy.telerik.com </p>
+    <a href = "Web Services and Cloud" class="signature-link">Web Services and Cloud</a>
+</div>
 
-<!--   attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size:1em' } -->
+<!-- section start -->
 
 #   Table of Contents
 
@@ -15,11 +20,13 @@
     *   Implementing the Service Contract
     *   Configuring the Service
 *   Hosting WCF Services (Self-Hosting and in IIS)
-*   Adding Service Reference in Visual Studio
 *   WCF RESTful Services
 
+<!-- section start -->
+
+<!-- attr: {class:"slide-section"} -->
 #   Windows Communication Foundation (WCF)
-*   Quick Introduction
+##  Quick Introduction
 
 #   Channel Model
 
@@ -33,6 +40,9 @@
     *   Data Contracts
     *   Service Contracts
     *   Service  Behaviors
+
+#   Channel Model
+
 *   Programming Model
     *   Core Services
     *   Web HTTP Services
@@ -54,6 +64,8 @@
       int Sum(int a, int b);
     }
     ```
+
+#   WCF Structure: Contracts
 
 *   Data contract
     *   Describe the data types used in the contract and their members
@@ -81,6 +93,9 @@
         net.msmq://stillAnotherURI
         ```
 
+<!-- section start -->
+
+<!-- attr: {class:"slide-section"} -->
 #   Creating a WCF Service
 ##  Step by Step
 
@@ -104,7 +119,7 @@
     2.   Implement those interfaces in one or more classes (implementation)
     3.   Configure the service (XML configuration file)
 
-<!--   attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size:1em' } -->
+<!-- attr: {class:"slide-section"} -->
 #   Defining a Service Contract
 ##  Step 1 of creating a WCF Service
 
@@ -115,6 +130,9 @@
     *   Describes to potential users how they communicate with the service
 *   The WSDL description of the service depends on the service contract
 *   To define a contract create an interface marked with the `[ServiceContract]` attribute
+
+#   Defining a Service Contract
+
 *   WCF uses attributes extensively:
     *   `[ServiceContract]` - for the exposed service interface
     *   `[OperationContract]` - for the contract methods that a client can see and use
@@ -138,7 +156,11 @@
     }
     ```
 
-    *   The data contract
+#   Defining a Service Contract - Example
+
+*  _Example_ creating a servie that returns data
+  * The data contract
+
     ```cs
     [DataContract]
     public class CompositeType
@@ -148,6 +170,7 @@
     }
     ```
 
+<!-- attr: {class:"slide-section"} -->
 #   Implementing the Service Contract
 ##  Step 2 of creating a WCF service
 
@@ -167,6 +190,7 @@
     }
     ```
 
+<!-- attr: {class:"slide-section"} -->
 #   Configuring the Service
 ##  Step 3 of creating a WCF service
 
@@ -178,24 +202,34 @@
         *   Can be relative to the base address
     *   **Binding** - the protocol over which the communication with the service is made
     *   **Contract** - which service contract is visible through this endpoint
+
+<!-- attr: {hasScriptWrapper: true} -->
+#   Configuring Endpoints
+
 *   Configure endpoints in two ways
     *   In the application settings
         *   `Web.config` / `App.config`
         *   In a section `<system.serviceModel>` in the application configuration file
         *   The most frequently used approach
     *   By C#   code:
-        *   `selfHost.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(), "CalculatorService")`
+
+    ```cs
+    selfHost.AddServiceEndpoint(typeof(ICalculator),
+                              new WSHttpBinding(),
+                              "CalculatorService")
+    ```
 
 #   Configuring Endpoints in Config Files
 
-*   The `<system.serviceModel>` contains many configuration options
+*   The `&lt;system.serviceModel>` contains many configuration options
 *   There are two very important elements for WCF:
-    *   `<services>` - defines **services** and **endpoints**
-    *   `<service>` elements are configured by their `behaviorConfiguration` attribute
+    *   `&lt;services>` - defines **services** and **endpoints**
+    *   `&lt;service>` elements are configured by their `behaviorConfiguration` attribute
         *   Points to an existing behavior
         *   They have endpoint elements
         *   The endpoints are configured through attributes
 
+<!-- attr: {hasScriptWrapper: true} -->
 #   Configuring Endpoints in Config Files - Example
 
 *   _Example_ confuring endpoints:
@@ -223,6 +257,7 @@
     *   `serviceDebug` - debug options
     *   `dataContractSerializer` - controls the way data contracts are serialized
 
+<!-- attr: { hasScriptWrapper: true} -->
 #   Configuring Services in Config Files - Example
 
 *   _Example_ configuring services
@@ -236,10 +271,11 @@
 </serviceBehaviors>
 ```
 
-#   Creating and Configuring a WCF Service
-##  [Demo]()
+<!-- section start -->
 
-#   Hosting a WCF Service
+<!-- attr: {class:"slide-section"} -->
+#   Hosting WCF Service
+##  Self-hosted, IIS
 
 #   Hosting WCF Service
 
@@ -265,36 +301,22 @@
 
 *   It has the ServiceHost directive
 *   Tells IIS in what language is used for the service and the main class of the service
+
+#   Hosting a WCF Service in IIS
+
 *   The code for the service (the contract and the class implementing it) can be stationed in three places
     *   Inline - following the ServiceHost directive
     *   In an assembly in the Bin directory
     *   As CS files in the `App_Code` directory
 *   You must set the necessary permissions in order for IIS to have access to your files
 
-#   Hosting WCF Services in IIS
-##  [Demo](http://)
+<!-- section start -->
 
-#   The `ServiceHost` Class
-
-*   Hosting of the service is managed by the `ServiceHost` class
-    *   Located in `System.ServiceModel` namespace
-*   You must have reference the `System.ServiceModel.dll` assembly
-*   In **self-hosting** scenarios we **initialize** and **start** the host manually
-*   _Example:_
-
-```cs
-var type = typeof(CalculatorService);
-var uri = new Uri("http://localhost:1234/service");
-ServiceHost selfHost = new ServiceHost(type, uri);
-selfHost.Open();
-```
-
-#   Self-Hosting a WCF Service
-##  [Demo](http://)
-
+<!-- attr: {class:"slide-section"} -->
 #   RESTful WCF Services
-*   Creating and Consuming RESTful WCF Services
+##  Creating and Consuming RESTful WCF Services
 
+<!-- attr: {hasScriptWrapper: true, style: 'font-size: 40px'} -->
 #   RESTful WCF Services
 
 *   To make a WCF Service RESTful, follow the steps:
@@ -311,42 +333,52 @@ selfHost.Open();
 
     *   Add endpoint behavior in `<system.serviceModel>`:
 
-      ```xml
-      <endpointBehaviors>
-       <behavior name="restfulEndpointBehavior">
-         <webHttp />
-       </behavior>
-      </endpointBehaviors>
-     ```
+    ```xml
+    <endpointBehaviors>
+     <behavior name="restfulEndpointBehavior">
+       <webHttp />
+     </behavior>
+    </endpointBehaviors>
+   ```
 
+<!-- attr: {hasScriptWrapper: true} -->
+#   RESTful WCF Services
+
+*   To make a WCF Service RESTful, follow the steps:
      *    Add a service with these behaviors:
-     ```xml
-     <service name="Research_Wcf.BookService" behaviorConfiguration="restfulServiceBehavior">
-       <endpoint address=""
-                 behaviorConfiguration="restfulEndpointBehavior"
-                 binding="webHttpBinding"
-                 bindingConfiguration=""
-                 contract="Research_Wcf.IBooksService" />
-       <host>
-         <baseAddresses>
-           <add baseAddress="http://localhost/bookservice"/>
-         </baseAddresses>
-       </host>
-     </service>
-     ```
 
-     *    Use URL mapping in the service contract
-
-    ```cs
-    [OperationContract]
-    [WebInvoke(Method = "GET", UriTemplate = "Category/{categoryID}")]
-    Category FindCategoryByID(string categoryID);
-    ```
-
-    *   Each service must be registered in `Web.config`
+```xml
+<service name="Research_Wcf.BookService" behaviorConfiguration="restfulServiceBehavior">
+ <endpoint address=""
+           behaviorConfiguration="restfulEndpointBehavior"
+           binding="webHttpBinding"
+           bindingConfiguration=""
+           contract="Research_Wcf.IBooksService" />
+ <host>
+   <baseAddresses>
+     <add baseAddress="http://localhost/bookservice"/>
+   </baseAddresses>
+ </host>
+</service>
+```
 
 #   RESTful WCF Services
-*   [Demo](http://)
 
+*   To make a WCF Service RESTful, follow the steps:
+    *    Use URL mapping in the service contract
+
+```cs
+[OperationContract]
+[WebInvoke(Method = "GET", UriTemplate = "Category/{categoryID}")]
+Category FindCategoryByID(string categoryID);
+```
+
+*   Each service must be registered in `Web.config`
+
+<!-- attr: {class: "slide-section"} -->
+#   RESTful WCF Services
+##  [Demo](http://)
+
+<!-- attr: {class: "slide-questions"} -->
 #   Windows Communication Foundation (WCF)
-*   Questions?
+##  Questions?
