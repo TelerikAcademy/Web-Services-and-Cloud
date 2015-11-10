@@ -12,13 +12,13 @@ public class PubnubDemo
         System.Threading.Thread.Sleep(2000);
 
 		PubnubAPI pubnub = new PubnubAPI(
-            "pub-c-02dee9ae-9627-4fb7-a486-a5cdf9df9749",               // PUBLISH_KEY
-            "sub-c-04a5c868-0374-11e3-bde1-02ee2ddab7fe",               // SUBSCRIBE_KEY
-            "sec-c-NTUzNGMyMjgtNDhkZS00ZTMwLWEyYTEtNGY5ZjYyOGU5ODY2",   // SECRET_KEY
+            "pub-c-25499a0d-31e9-468c-b4e4-e1940acb2e46",               // PUBLISH_KEY
+            "sub-c-73f3014a-8793-11e5-8e17-02ee2ddab7fe",               // SUBSCRIBE_KEY
+            "sec-c-NzBlZGI4OGYtZjkzNS00MjQ1LWI2NzItMTZlODNlOTdjNDEz",   // SECRET_KEY
 			true                                                        // SSL_ON?
 		);
-		string channel = "nakov-channel";
-
+		string channel = "demo-channel";
+        
 		// Publish a sample message to Pubnub
 		List<object> publishResult = pubnub.Publish(channel, "Hello Pubnub!");
 		Console.WriteLine(

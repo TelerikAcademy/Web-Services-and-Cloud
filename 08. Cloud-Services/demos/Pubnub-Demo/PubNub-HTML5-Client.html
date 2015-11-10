@@ -7,8 +7,8 @@
 
 <body>
 	<div 
-        pub-key="pub-c-02dee9ae-9627-4fb7-a486-a5cdf9df9749" 
-        sub-key="sub-c-04a5c868-0374-11e3-bde1-02ee2ddab7fe" 
+        pub-key="pub-c-02a930d9-8e75-4a4d-842e-bd3e5f7bae01" 
+        sub-key="sub-c-73f3014a-8793-11e5-8e17-02ee2ddab7fe" 
         ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
     <script src=http://cdn.pubnub.com/pubnub-3.5.3.min.js></script>
     <h1>Listening for messages from Pubnub...</h1>
@@ -17,7 +17,7 @@
         (function() {
             document.write("")
             PUBNUB.subscribe({
-                channel: "nakov-channel", 
+                channel: "demo-channel", 
                 callback: function (message) { 
                     // Received a message --> print it in the page
                     document.getElementById('messagesArea').innerHTML += message + '\n';

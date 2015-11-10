@@ -321,12 +321,13 @@
   * 25 MB free cache + paid plans
 
 
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
- Background Tasks
+# Background Tasks
 ##  Run Background Server-Side Logic
 
 <!-- attr: { showInPresentation:true, style:'' } -->
- Background Tasks in the Cloud
+# Background Tasks in the Cloud
 * Google AppEngine Task Queue API
   * Perform work as background processing
   * Based on URL invocation with parameters
