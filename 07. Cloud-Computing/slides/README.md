@@ -62,7 +62,7 @@
 # The Cloud is Everywhere!
 * The **cloud technologies** are becoming inseparable part of our life:
 <div class="box">
-`The cloud is coming, we cannot avoid it!`
+`The cloud is here, we cannot avoid it!`
 </div>
 <div class="box">
 `The world is moving towards the cloud!`
@@ -116,17 +116,17 @@
 # How the Cloud Works?
 * In the cloud everyone consumes a portion of the `shared computing resources`
   * CPU, memory, storage, IO, networking, etc.
-* If you business is small, you consume less
+* If your business is small, you consume less
   * If your business is growing, you consume more resources from the cloud
 * Pay as you go
-  * Start for free, pay when yougrow and need more resources
+  * Start for free, pay when you grow and need more resources
 
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # Cloud Computing – Example
 * Suppose we have a `mail server software`
   * It needs computing resources (CPU, disk operations, networking, etc.) only when sending or receiving emails
-  * It the rest of the time it does nothing
+  * The rest of the time it does nothing
 * The mail server on dedicated machine will use less than `1%` of its power and resources
   * You can run `100` mail servers in the cloud for the same job on the same hardware
   * Less hardware, reduces costs, increased quality
@@ -183,11 +183,11 @@
 
 <img class="slide-image" src="imgs/iaas-paas-saas.png" style="width:90%; top:15%; left:5%" />
 
+
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # IaaS
 ##  Infrastructure as a Service
-
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # IaaS (Infrastructure as a Service)
@@ -268,6 +268,19 @@
 
 <img class="slide-image" src="imgs/paas-arch.png" style="position:initial; width:80%; margin-left:10%" />
 * At each tier different managed services, technologies and languages can run
+
+
+<!-- attr: { hasScriptWrapper:true } -->
+# AWS Architecture
+<img class="slide-image" src="imgs/aws-arch.png" style="position:initial; width:90%; margin-left:5%" />
+
+<!-- attr: { hasScriptWrapper:true } -->
+# Windows Azure Architecture
+<img class="slide-image" src="imgs/azure-arch.png" style="position:initial; width:90%; margin-left:5%" />
+
+<!-- attr: { hasScriptWrapper:true } -->
+# AppHarbor Architecture
+<img class="slide-image" src="imgs/appharbor-arch.png" style="position:initial; width:90%; margin-left:5%" />
 
 
 <!-- attr: { showInPresentation:true, style:'font-size:0.9em' } -->
