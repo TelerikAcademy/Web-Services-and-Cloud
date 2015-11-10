@@ -320,15 +320,13 @@
 * MemCachier for Heroku – memcachier.com
   * 25 MB free cache + paid plans
 
-<!-- section start -->
+
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Background Tasks
+ Background Tasks
 ##  Run Background Server-Side Logic
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
 <!-- attr: { showInPresentation:true, style:'' } -->
-# Background Tasks in the Cloud
+ Background Tasks in the Cloud
 * Google AppEngine Task Queue API
   * Perform work as background processing
   * Based on URL invocation with parameters
@@ -339,15 +337,14 @@
   * Daily Cron – runs a task once daily (free)
   * Hourly Cron – runs a task every hour (paid)
 
-<!-- section start -->
+
+
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# MapReduce Calculations
+ MapReduce Calculations
 ##  Distributing Large Calculations on Multiple Machines
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
 <!-- attr: { showInPresentation:true, style:'' } -->
-# What is MapReduce?
+ What is MapReduce?
 * MapReduce is distributed calculation paradigm
   * Splits a long calculation to multiple nodes
   * The results is calculated many times faster
@@ -358,7 +355,7 @@
 * MapReduce infrastructure is provided as service in many public clouds
 
 <!-- attr: { showInPresentation:true, style:'' } -->
-# MapReduce in the Public Clouds
+ MapReduce in the Public Clouds
 * Amazon Elastic MapReduce (Amazon EMR)
   * MapReduce API running in the AWS infrastructure – uses EC2 and S3
   * Cost = EMR price + EC2 price + S3 price
@@ -366,42 +363,21 @@
   * Has Python and Java APIs
   * Priced like usual GAE computing instances
 
-<!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Other Cloud Services
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+ Other Cloud Services
 
 <!-- attr: { showInPresentation:true, style:'' } -->
-# Other Cloud Services
+ Other Cloud Services
 * The best way to learn about the other public cloud services is to explore the
   * Add-Ons Directory on Heroku
   * https://addons.heroku.com
   * A really large list of cloud add-ons
 
-<!-- attr: { showInPresentation:true, style:'' } -->
-# Other Cloud Services
-* http://academy.telerik.com
 
-<!-- attr: { showInPresentation:true, style:'' } -->
-# Homework
-* Implement a very simple chat application based on some message queue service:
-  * Users can send message into a common channel.
-  * Messages are displayed in the format {IP : message_text}.
-* Use a language, cloud and message queue service of your choice (e.g. C# + AppHarbor + IronMQ). Your application can be console, GUI or Web-based.
-* Re-implement the application using the PubNub API.
-* Write a C# program to publish a photo album with few photos into DropBox and share the photos through the Dropbox sharing functionality.
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Free Trainings @ Telerik Academy
-* "Software Development in the Cloud"Course @ Telerik Software Academy
-    * clouddevcourse.telerik.com
-  * Telerik Software Academy
-    * academy.telerik.com
-  * Telerik Academy @ Facebook
-    * facebook.com/TelerikAcademy
-  * Telerik Software Academy Forums
-    * forums.academy.telerik.com
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
+<!-- section start -->
+<!-- attr: { class:'slide-section', showInPresentation:true, style:'' } -->
+# Questions?
+## Other Cloud Services
+[link to Telerik Academy Forum](http://telerikacademy.com/Forum/Category/58/web-services-and-cloud)
