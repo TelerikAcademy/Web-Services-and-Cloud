@@ -1,3 +1,3 @@
 ## Windows Communication Foundation
-### [View Presentation online](https://rawgit.com/TelerikAcademy/Databases/master/3.%20Windows-Communication-Foundation/index.html)
+### [View Presentation online](https://rawgit.com/TelerikAcademy/Web-Services-and-Cloud/master/06.%20Windows-Communication-Foundation/slides/index.html)
 ### Table of Contents
