@@ -19,29 +19,4 @@ namespace Tests.Api.Models
 
         public IEnumerable<string> CorrectAnswers { get; set; }
     }
-
-    public class QuestionResponseModel
-    {
-        public static Expression<Func<Question, QuestionResponseModel>> FromQuestion
-        {
-            get
-            {
-                return question => new QuestionResponseModel()
-                {
-                    Text = question.Text,
-                    Id = question.Id,
-                    Category = question.Category.Name,
-                    Answers = question.Answers.Select(ans => ans.Text)
-                };
-            }
-        }
-
-        public IEnumerable<string> Answers { get; private set; }
-
-        public string Category { get; private set; }
-
-        public int Id { get; private set; }
-
-        public string Text { get; private set; }
-    }
 }

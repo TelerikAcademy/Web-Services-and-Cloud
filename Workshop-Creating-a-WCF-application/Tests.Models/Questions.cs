@@ -12,6 +12,7 @@ namespace Tests.Models
         public int Id { get; set; }
 
         [Required]
+        [StringLength(40, MinimumLength = 5)]
         public string Text { get; set; }
 
         public virtual ICollection<Answer> Answers { get; set; }

@@ -8,7 +8,7 @@ using System.Text;
 using Tests.Api.Models;
 using Tests.Models;
 
-namespace Tests.Api
+namespace Tests.Api.ServiceContracts
 {
     [ServiceContract]
     public interface IQuestionsService
@@ -18,6 +18,12 @@ namespace Tests.Api
                     UriTemplate = "/questions",
                     ResponseFormat = WebMessageFormat.Json)]
         IQueryable<QuestionResponseModel> GetAll();
+
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+                    UriTemplate = "/questions?category={category}",
+                    ResponseFormat = WebMessageFormat.Json)]
+        IQueryable<QuestionResponseModel> GetQuestionsForCategory(string category);
 
         [OperationContract]
         [WebInvoke(Method = "GET",
