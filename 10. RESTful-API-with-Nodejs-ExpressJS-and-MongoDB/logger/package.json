@@ -1,0 +1,19 @@
+{
+  "name": "Logger-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.6",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
