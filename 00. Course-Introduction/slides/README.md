@@ -1,242 +1,195 @@
 <!-- section start -->
-<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- attr: { id:'title', class:'slide-title', hasScriptWrapper:true } -->
 # Web Services and Cloud Technologies
-##  Web Services Course Program, Evaluation, Exams
+##  Course Program, Evaluation, Exams, Resources
+
 <div class="signature">
-    <p class="signature-course">Telerik Software Academy</p>
-    <p class="signature-initiative">http://academy.telerik.com </p>
-    <a href = "Web Services and Cloud" class="signature-link">Web Services and Cloud</a>
+    <p class="signature-course">Web Services and Cloud</p>
+    <p class="signature-initiative">Telerik Software Academy</p>
+    <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- section start -->
+<!-- attr: { id:'table-of-contents' } -->
 # Table of Contents
-* What's Coming Next in the Academy?
-* The Web Services and Cloud Course Program
-* The Trainers Team
-* Exams and Evaluation
-  * Standard Criteria
-  * Bonuses
-* Resources for the Course
+- What's Coming Next in the Academy?
+- The Web Services and Cloud Course Program
+- The Trainers Team
+- Exams and Evaluation
+  - The Practical Exam
+- Resources for the Course
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- attr: { class:'slide-section', id:'coming-next' } -->
 # Web Services and Cloud Technologies
-##  Coming To The Next Module
+## The Next Module in the Software Academy (The Programming Track)
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # What's Coming Next?
-* Two courses at the same time
-  * Web Services and Cloud Technologies
-    * Lectures every working day in the week
-      * From 10:30 to 18:00
-    * Practical exam after 2 weeks
-  * Data structures and algorithms
-    * Lectures 3 times this week
-      * This Tuesday, Wednesday andFriday from 18:00 to 22:00
-    * Practical exam after 1 week
-* Seminar: Reflecti0n – this Saturday!
+- `Web Services and Cloud Technologies`
+  - Continuation of Database course
+  - Services, ASP.NET Web API, WCF, Cloud, Azure, Architecture
+- Lectures 2 times a week
+  - Tuesday and Thursday
+- The course exam?
+  - Practical exam with peer evaluation
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# What's Coming Next?
+[Curriculum](http://academy.telerik.com/images/default-source/Academy_Curriculum/ta_plan_bg.png?sfvrsn=0)
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+[link to table in Forum](http://telerikacademy.com/Forum/Questions/179433/%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D1%8A%D1%87%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0-%D0%B4%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F-%D0%BD%D0%B0-%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D1%82%D0%B0#forum-post-179433)
+
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Web Services and Cloud – Program
-##  What Will We Cover in the Web Services and Cloud?
+<!-- attr: {class: 'slide-section', id: 'web-services-program'} -->
+# Web Services and Cloud Technologies Course Program
+## What Will We Cover in the Course?
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.5em' } -->
+# The Course Program
+### Week 1
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>0</td><td>Course Introduction</td><td>16:00</td><td align="center">Tue (27-Oct-2015)</td><td>Niki</td></tr><tr><td>1</td><td>Web Services Overview</td><td>16:30</td><td align="center">Tue (27-Oct-2015)</td><td>Niki</td></tr><tr><td>2</td><td>Creating web services with ASP.NET WebAPI</td><td>18:00</td><td align="center">Tue (27-Oct-2015)</td><td>Ivo</td></tr><tr><td>3</td><td>Architecture and design of ASP.NET WebAPI application</td><td>18:00</td><td align="center">Thu (29-Oct-2015)</td><td>Ivo</td></tr><tr><td>4</td><td><strong>Workshop</strong>: Creating a RESTful API with ASP.NET WebAPI</td><td>19:00</td><td align="center">Thu (29-Oct-2015)</td><td>Ivo</td></tr></tbody></table>
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# The Web Services Course Program
-* Web Services – Overview
-* ASP.NET Web API
-* Windows Communication Foundation (WCF)
-* Consuming REST Services with C#
-* Web API Architecture
-* Testing Services
-* Cloud Computing and  Technologies
-* Cloud Platforms and Services
-* Teamwork and Exam
+### Week 2
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>5</td><td>Requesting remote data with C#</td><td>16:00</td><td align="center">Tue (3-Nov-2015)</td><td>Evlogi</td></tr><tr><td>6</td><td>Testing Web Services</td><td>18:00</td><td align="center">Tue (3-Nov-2015)</td><td>Ivo</td></tr><tr><td>7</td><td>Creating web services with Windows Communication Foundation (WCF)</td><td>10:30</td><td align="center">Thu (5-Nov-2015)</td><td>Doncho</td></tr><tr><td>8</td><td><strong>Workshop</strong>: Creating RESTful API with WCF</td><td>14:00</td><td align="center">Thu (5-Nov-2015)</td><td>Doncho</td></tr></tbody></table>
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.5em' } -->
+<!-- # The Course Program -->
+### Week 3
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>9</td><td>Cloud technologies overview</td><td>10:30</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>10</td><td>Using cloud platforms and services</td><td>13:00</td><td align="center">Tue (10-Nov 2015)</td><td>Evlogi</td></tr><tr><td>11</td><td><strong>Workshop</strong>: Using cloud platforms  and services in Azure</td><td>10:30</td><td align="center">Thu (12-Nov 2015)</td><td>Niki</td></tr></tbody></table>
+
+### Week 4
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th><th>Trainer</th></tr></thead><tbody><tr><td>12</td><td><strong>Exam preparation</strong>: RESTful API with ASP.NET WebAPI and WCF</td><td>18:00</td><td align="center">Mon (16-Nov-2015)</td><td>Ivo</td></tr><tr><td>13</td><td><strong>Workshop</strong>: RESTful API with Node.js, Express and MongoDB</td><td>10:30</td><td align="center">Thu (19-Nov-2015)</td><td>Doncho</td></tr><tr><td>14</td><td><strong>Teamwork Defense</strong></td><td>09:30</td><td align="center">Fri (20-Nov-2015)</td><td>All</td></tr></tbody></table>
+
+### Week 5
+<table><thead><tr><th>#</th><th>Title</th><th>Time</th><th align="center">Date</th></tr></thead><tbody><tr><td>15</td><td>Practical Exam</td><td>10:00</td><td align="center">Mon (23 Nov 2015)</td></tr></tbody></table>
+
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- attr: {class: 'slide-section', id: 'trainers'} -->
 # The Trainers Team
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
+# The Trainers Team
+<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/nikolay-kostov.png" style="float:right" height="200" />
+-   **Nikolay Kostov**
+	-   Manager Software Engineering
+	<br />@ Telerik (Progress)
+	-   Microsoft Certified Trainer (MCT)
+	-   Champion from Telerik Academy
+	-   IT and Informatics competitions winner
+	-   Student in Sofia University (Computer Science)
+	-   Email: nikolay.kostov [at] telerik.com
+	-   Blog:
+	<a href="http://nikolay.it" title="http://nikolay.it" target="_blank">http://nikolay.it</a>
+	-   GitHub:
+	<a href="https://github.com/NikolayIT" title="https://github.com/NikolayIT" target="_blank">https://github.com/NikolayIT</a>
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Trainers Team
-* `Nikolay Kostov`
-  * Team Lead, Senior Developerand Trainer @ Telerik Corp.
-  * Student at Sofia University
-    * Computer Science
-  * IT and Informatics competitions contestant
-  * Graduate from the second season of Telerik Software Academy
-  * Email: nikolay.kostov [at] telerik.com
-  * Blog: http://nikolay.it 
+<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
+# The Trainers Team
+<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/doncho-minkov.jpg" style="float:right" height="230" />
+-   **Doncho Minkov**
+	-   Senior Technical Trainer @ Telerik Academy
+	-   Contestant in the Informatics competitions
+	-   Champion from Telerik Software Academy
+	-   Experience with Web and Mobile apps
+	-   Proficient with JavaScript and .NET
+	-   Email: doncho.minkov [at] telerik.com
+	-   Blog:
+	<a href="http://minkov.it" title="http://minkov.it" target="_blank">http://minkov.it</a>
+	-   GitHub:
+	<a href="https://github.com/Minkov" title="https://github.com/Minkov" target="_blank">https://github.com/Minkov</a>
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+<!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
+# The Trainers Team
+<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/ivaylo-kenov.png" style="float:right" height="240" />
+-   **Ivaylo Kenov**
+	-   Technical Trainer @ Telerik Academy
+	-   Mathematical competitions
+	<br />contestant
+	-   Champion from Telerik Software Academy
+	-   E-mail: ivaylo.kenov [at] telerik.com
+	-   Champion in OOP and DSA
+	-   Blog:
+	<a href="http://ivaylo.bgcoder.com/" title="http://ivaylo.bgcoder.com/" target="_blank">http://ivaylo.bgcoder.com/</a>
+	-   GitHub:
+	<a href="https://github.com/ivaylokenov" title="https://github.com/ivaylokenov" target="_black">https://github.com/ivaylokenov</a>
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Trainers Team (2)
-* `Doncho Minkov`
-  * Senior Technical Trainer@ Telerik Software Academy
-  * Student in Sofia University
-    * Software Engineering
-  * Contestant in the Informatics competitions
-  * Graduate from the first season of Telerik Software Academy
-  * Email: doncho.minkov [at] telerik.com
-  * Blog: http://minkov.it 
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Trainers Team (3)
-* Ivaylo Kenov
-  * Technical Trainer@ Telerik Software Academy
-  * Graduate from the fourth seasonof Telerik Software Academy
-  * Mathematical competitions contestant
-  * E-mail: ivaylo.kenov [at] telerik.com
-  * Champion in OOP and DSA
-  * http://ivaylo.bgcoder.com
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Trainers Team (4)
-* Evlogi Hristov
-  * Technical Trainer@ Telerik Software Academy
-  * Graduate from the fourth seasonof Telerik Software Academy
-  * E-mail: evlogi.hristov [at] telerik.com
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
+<!-- attr: {hasScriptWrapper: true} -->
+# The Trainers Team
+<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/evlogi-hristov.jpg" style="float:right" height="240" />
+-   **Evlogi Hristov**
+	-   Technical Trainer @ Telerik Academy
+	-   Graduate from the fourth season
+	<br />of Telerik Software Academy
+	-   Ex-developer, Sharepoint
+	-   E-mail: evlogi.hristov [at] telerik.com
+	
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Evaluation 
-##  Thank God There Are Bonuses!
+<!-- attr: {id: 'evaluation', class: 'slide-section'} -->
+# Course Evaluation
+## Thank God there are.. NO Bonuses
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+<!-- attr: { style:'font-size:0.9em' } -->
+# Course Evaluation
+- Course Evaluation
+  - **Practical exam** – 45%
+    - **Exam evaluation** – 10%
+  - **Teamwork** – 20%
+  - **Homework** – 5%
+    - **Homework evaluation** – 5%
+  - **Attendance in class** – 5%
+  - **Forums activity** – up to 5%
+  - **Helping others** – up to 5%
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Web Services – Evaluation
-* Evaluation components
-  * `Practical exam` – `60%`
-    * `Peer review – 10 exams`
-  * `Teamwork` – `15%`
-  * `Homework` – `10%`
-  * Homework `evaluation `– `5%`
-    * 3 peer reviews per homework (excellent, OK, bad)
-  * `Attendance` in class` `– `10%`
-* Bonuses
-  * `Forums` `activity` – bonus up to `5%`
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Pass / Excellence / Fail Criteria
-  * Criteria for pass / pass with excellence / fail
-    * `Pass with excellence`
-    * Very high exam results
-    * 	  or
-    * High total results
-  * `Pass`
-    * Average total results
-  * `Fail`
-    * Low total results or low exam results
+-	Criteria for pass / pass with excellence / fail
+	-	Pass with excellence
+		-	Very high exam results
+		-	High total results
+	-	Pass
+		-	Average total results
+	-	Fail
+		-	Low total results or low exam results
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, style:'' } -->
 # Homework Peer Reviews
-* Everyone will `get feedback `for their homework
-* Everyone will `give feedback `for few random homework submissions
-  * Students submit homework `anonymously`
-    * Please exclude your name from the submissions!
-  * For each homework submitted
-    * Students `evaluate 3 random homeworks`
-    * From the same topic, after the deadline
-    * Homework comments are `not obligatory`
+-	Everyone will **get feedback** for their homework
+-	Everyone will **give feedback** for few random homework submissions
+	-	Students submit homework **anonymously**
+		-	Please exclude your name from the submissions!
+	-	For each homework submitted
+		-	Students **evaluate 3 random homeworks**
+		-	From the same topic, after the deadline
+		-	Homework comments are `not obligatory`
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Check Your Presence
-* From now on you should check your presence on the barcode reader `2-3 times a day`:
-  * In the morning when lectures begin (~10:30)
-  * After lunch break (~13:30)
-  * When you have data structures and algorithms when the lecture starts (~18:00)
+# Course Web Site & Forums
+-	Register for the [Telerik Academy Forums](http://telerikacademy.com/Forum/Category/58/web-services-and-cloud)
+	-	Discuss the course exercises with your colleagues
+	-	Find solutions for the exercises
+	-	Share source code / discuss ideas
+-	The course official [web site](http://academy.telerik.com/student-courses/software-technologies/web-services-and-cloud-computing/about)
 
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
+# Telerik Integrated Learning System (TILS)
+-	The Telerik Integrated Learning System ([TILS](http://www.telerikacademy.com))
+	-	Important resource for all students
+	-	Homework submissions
+	-	Homework peer reviews
+	-	Presence cards with barcode
+	-	Reports about your results
+-	[Course site](http://telerikacademy.com/Courses/Courses/Details/275)
+
+# Required Software
+-	Software needed for this course:
+  -	Microsoft Windows (Win8.1 / Win10)
+  - Microsoft **Visual Studio 2015**
+  - **SQL Server 2014**
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Resources
-##  What We Need in Addition to this Course Content?
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Course Web Site & Forums
-* Register for the "Telerik Academy Forums":
-  * Discuss the course exercises with your colleagues
-  * Find solutions for the exercises
-  * Share source code / discuss ideas
-* The databases official web site:
-* http://forums.academy.telerik.com/web-development/web-services-and-cloud
-* academy.telerik.com/student-courses/software-technologies/web-services-and-cloud-computing 
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Telerik IntegratedLearning System (TILS)
-* The Telerik Integrated Learning System (TILS)
-  * www.telerikacademy.com
-  * Important resource for all students
-  * Homework submissions
-  * Homework peer reviews
-  * Presence cards with barcode
-  * Reports about your results
-* telerikacademy.com/Courses/Courses/Details/187
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Required Software
-* Software needed for this course:
-  * Microsoft `Visual Studio 2012/2013`
-  * Microsoft SQL Server 2012 Developer with Service Pack 1 and Developer Tools
-    * Or SQL Server 2014
-    * Or Express version
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Web Services and Cloud Technologies
-* http://academy.telerik.com
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Free Trainings @ Telerik Academy
-* C# Programming @ Telerik Academy
-    * csharpfundamentals.telerik.com
-  * Telerik Software Academy
-    * academy.telerik.com
-  * Telerik Academy @ Facebook
-    * facebook.com/TelerikAcademy
-  * Telerik Software Academy Forums
-    * forums.academy.telerik.com
-
-<img class="slide-image" src="imgs/pic.png" style="width:80%; top:10%; left:10%" />
-
+<!-- attr: { id:'questions', class:'slide-section' } -->
+# Questions
+## Web Services and Cloud Technologies
+[link to the forum](http://telerikacademy.com/Forum/Category/58/web-services-and-cloud)
